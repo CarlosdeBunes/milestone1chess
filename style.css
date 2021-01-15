@@ -23,11 +23,16 @@ body{
 }
 
 .carousel-item img{ /*clase que se refiere a los elementos del carrusel, y con img indicamos que queremos las imagenes*/
-    max-height: 557.5px;
+    max-height: 450px;
 }
 
 /*clases de los botones de siguiente > y anterior <*/
 .carousel-control-next, .carousel-control-prev{ 
     align-items: center; /*tiene un display: flex segun he visto inspeccionando el elemento, y le he cambiado la posicion a center*/
     height: 100%; /*100% de ancho que coge del elemento padre, osea, de carouselExampleCaptions*/
+}
+footer.footer{
+    height: 170px;
+    background-color:black;
+    color: white;
 }
