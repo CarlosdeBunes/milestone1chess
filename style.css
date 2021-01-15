@@ -1,0 +1,33 @@
+body{
+    font-family: 'Titillium Web', sans-serif; /*cambiamos el tipo de letra para todo el cuerpo de la página*/
+}
+
+/*estilos de la barra de navegacion*/
+.navbar{ 
+    background-color: #ffffff; /*color de fondo*/
+    min-height: 100px; /*minimo de altura, para que la barra no pueda bajar de 100px cuando cambia el tamaño de pantalla*/
+}
+
+/*clase del icono que pongamos como logo*/
+.logo-brand{
+    min-width: 160px; /*minimo largo que puede alcanzar la foto*/
+    max-width: 180px; /*maximo largo que puede alcanzar la foto*/
+}
+
+.nav-link{ color: #1a1a1a;} /*color de los enlaces de la barra*/
+.nav-link:hover{border-bottom: 1px solid #1a1a1a; color: #1a1a1a;} /*lo mismo pero cuando se pasa el ratón*/
+
+/*estilos del carrusel de fotos*/
+#carouselExampleCaptions{ /*clase que se refiere al div que contiene todo el carrusel*/
+    height: 90%; /*90% de ancho que coge del elemento padre, es decir, del body*/
+}
+
+.carousel-item img{ /*clase que se refiere a los elementos del carrusel, y con img indicamos que queremos las imagenes*/
+    max-height: 557.5px;
+}
+
+/*clases de los botones de siguiente > y anterior <*/
+.carousel-control-next, .carousel-control-prev{ 
+    align-items: center; /*tiene un display: flex segun he visto inspeccionando el elemento, y le he cambiado la posicion a center*/
+    height: 100%; /*100% de ancho que coge del elemento padre, osea, de carouselExampleCaptions*/
+}
