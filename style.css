@@ -4,14 +4,14 @@ body{
 
 /*estilos de la barra de navegacion*/
 .navbar{ 
-    background-color: #ffffff; /*color de fondo*/
+    background-color: #be7777; /*color de fondo*/
     min-height: 100px; /*minimo de altura, para que la barra no pueda bajar de 100px cuando cambia el tamaño de pantalla*/
 }
 
 /*clase del icono que pongamos como logo*/
 .logo-brand{
     min-width: 160px; /*minimo largo que puede alcanzar la foto*/
-    max-width: 180px; /*maximo largo que puede alcanzar la foto*/
+    max-width: 1800px; /*maximo largo que puede alcanzar la foto*/
 }
 
 .nav-link{ color: #1a1a1a;} /*color de los enlaces de la barra*/
@@ -32,7 +32,7 @@ body{
     height: 100%; /*100% de ancho que coge del elemento padre, osea, de carouselExampleCaptions*/
 }
 footer.footer{
-    height: 170px;
+    height: 100px;
     background-color:black;
     color: white;
 }
