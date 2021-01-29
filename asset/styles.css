@@ -30,12 +30,12 @@ body{
 }
 
 .carro p{
-    background-color: rgba(241, 235, 235, 0.534);
+    background-color: #aa5454;
     width: fit-content;
     margin: auto;
     padding: 1%;
-    color: black;
     font-size: 400;
+    color: white;
 }
 
 .carro .carousel-inner .main{
@@ -47,6 +47,9 @@ body{
     color: white;
     text-decoration: none;
     transition: .5s;
+}
+.carousel-inner img{
+    height: 350px;
 }
 
 .carro .carousel-inner a:hover{
@@ -85,9 +88,10 @@ footer ul{
 }
 
 #careto{
-    width: 15rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
     margin-left: 20%;
+    margin-top: 25%;
 }
 
 .signin-text{
@@ -96,11 +100,12 @@ footer ul{
 }
 
 #description{
-    height: 275px;
+    height: 255px;
     overflow: auto;
     background-color: grey;
     color: white;
     font-size: 18px;
+    padding: 5px 10px;
 }
 
 .form-control{
