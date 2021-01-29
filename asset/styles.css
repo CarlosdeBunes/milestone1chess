@@ -6,7 +6,8 @@ body{
 
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN */
 .navbar-brand img{ /* IMAGEN DEL LOGO */
-    width: 80px;
+    width: 130px;
+    margin-left: 50px;
 }
 
 .nav-link{
@@ -21,8 +22,20 @@ body{
     transform: translateY(-10px);
     border-radius: 10px;
 }
-
-
+#getstarted-btn{
+   display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #b30606;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+#getstarted-btn:hover{
+   box-shadow: 0px 3px #000000;
+    transform: translateY(-3px);
+}
 /* ESTILOS DEL CARRUSEL DE FOTOS */
 .carro{
     width: 60%;
@@ -156,6 +169,15 @@ footer ul{
         width: 10rem;
         height: 15rem;
         margin-left: 20%;
+    }
+}
+@media (max-width: 600px) {
+    .carro{
+       width: 90% !important;
+       margin: auto;
+    }
+    .carro p{
+    font-size: 12px;
     }
 }
 
