@@ -26,7 +26,7 @@
 <body>
     <!-- BARRA DE NAVEGACIÓN -->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html"><img src="imagesCarlos/thinker2.jpg" alt="logobrand"></a>
+        <a class="btn btn-danger btn-lg" href="paymentplan.html" role="button">CHESS WITH CARLOS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="icon ion-md-menu"></i>
@@ -34,6 +34,9 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link main" id="getstarted-btn" href="Register.html">GET A FREE GIFT</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -60,28 +63,28 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="imagesCarlos/1slide.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/8slide.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
-                        <a href="about.html" class="main">Meet the instructor</a>
-                        <p>I have 5 years of teaching experience for kids and adults.
+                        <a href="about.html" class="main">Start Learning</a>
+                        <p>Learn logical chess move by move, everymove explain.
+                            Discover chess openings, tactics, the art of attack and much more..
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/1slide.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <a href="Register.html" class="main">Meet the instructor</a>
+                        <p> I have 5 years of teaching experience for kids and adults.
                             I have 2100 FIDE / USCF rating points.
                         </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="imagesCarlos/2slide.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <a href="Register.html" class="main">Start Learning</a>
-                        <p>Learn logical chess move by move, everymove
-                            explain. Discover chess openings, tactics, the art of attack and much more..
-                        </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="imagesCarlos/3slide.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/3slide.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
                         <a href="freegift.html" class="main">GET A FREE GIFT!</a>
-                        <p> Chess will help your kid to develop better memory and to improve your math skills, 
+                        <p> Chess will help your kid to develop better memory and to improve your math skills,
                             creativity, reasoning and concentration.</p>
                     </div>
                 </div>
@@ -96,14 +99,220 @@
             </a>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <!-- SECCION DE ABOUT ME -->
+    <H1>ABOUT ME</H1>
+    <div class="container">
+        <div class="row content">
+            <!-- content es una clase creada, no de Boostrap -->
 
+            <div class="col-md-3 mb-3">
+                <!-- mb es margin bottom -->
+                <img src="img/me.jpg" class="img-fluid" id="careto" alt="">
+            </div>
+
+            <div class="col-md-9">
+                <h2 class="signing-text mb-3">WELCOME TO CROOM CHESS</h2> <!-- signing text es clase creada -->
+                <p id="description">
+                    My mission is to share knowledge with anyone interested in this royal game and to help individuals
+                    to improve at chess in a short period. I hope that you will enjoy with my chess classes and that
+                    you will have success in any field of your life.
+                    <br><br>
+                    Get started with a personalized report on your strengths and weaknesses. Tactics Puzzles.
+                    Blunder
+                    Prevention. Openings Trainer. Courses: Blunder Preventer, Personalized Tactics.
+                    <br><br>
+                    Discover the keys for your kids to help them to improve quickly!
+                    Join my course and you will discover, with practical examples,
+                    the 4 key pillars to progress in chess quickly.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CHOOSE PLAN SECTION -->
+    <H1>PRICES</H1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron bg-warning">
+                    <h1 class="display-4">One single class</h1>
+                    <p class="lead">Schedule one hour</p>
+                    <hr class="my-4">
+                    <p class="lead text-center price">20€</p> <!-- price es una clase creada -->
+                    <a class="btn btn-primary btn-lg" href="paymentplan.html" role="button">Purchase now!</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron bg-info">
+                    <h1 class="display-4">Twelve classes</h1>
+                    <p class="lead">Ready for the bootcamp!</p>
+                    <hr class="my-4">
+                    <p class="lead text-center price">100€</p> <!-- price es una clase creada -->
+                    <a class="btn btn-danger btn-lg" href="paymentplan.html" role="button">Purchase now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact for classes -->
+    <H1>CONTACT</H1>
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="img/4slide.jpg" class="img-fluid" alt="">
+            </div>
+            <form>
+                <div class="form-group">
+                    <h5 for="exampleFormControlInput1">Leave your Email and we will contact you</h5>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <label for="exampleFormControlSelect1">What's your chess level?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Beginners
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Intermedium
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Advance
+                    </label>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">What time would you like to be contacted?</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>from 9 to 12</option>
+                        <option>from 12 to 15</option>
+                        <option>from 15 to 18</option>
+                        <option>from 18 to 21</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">What would you like to learn?</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Openings</option>
+                        <option>Middle Game</option>
+                        <option>End Game</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+    <!-- get a free gift -->
+    <H1>FREE GIFT</H1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron bg-warning">
+                    <h1 class="display-4">Get your free chess clock!</h1>
+                    <p class="lead">Offer ends at end of stock</p>
+                    <hr class="my-4">
+                    <p class="lead text-center price">20€ value</p> <!-- price es una clase creada -->
+                    <a class="btn btn-primary btn-lg" href="giftcontact.html" role="button">click here!</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron bg-info">
+                    <h1 class="display-4">Get your 2 free classes!</h1>
+                    <p class="lead">Offer ends at the end of the month</p>
+                    <hr class="my-4">
+                    <p class="lead text-center price">40€ value</p> <!-- price es una clase creada -->
+                    <a class="btn btn-danger btn-lg" href="giftcontact.html" role="button">click here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOG IN -->
+    <H1>LOG IN</H1>
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="img/4slide.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="container">
+                        <h4>Great to see you back</h4>
+                        <br>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        <br><br>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        <br><br>
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                        <label class="form-check-label" for="checkbox">Remember me</label>
+                    </div>
+                    <br>
+                    <p>I do not remember my <a href="#">password</a>.</p>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Log in</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- REGISTER -->
+    <H1>REGISTER</H1>
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="img/4slide.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <form action="/action_page.php">
+                    <div class="container">
+                        <h4>Fill in this form to create an account</h4>
+                        <hr>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        <br>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        <br>
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                        <hr>
+
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+
+                    <div class="container signin">
+                        <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER -->
     <footer>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="icon ion-logo-youtube"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>                <li class="list-inline-item"><a href="#"><i class="icon ion-logo-google"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="icon ion-logo-google"></i></a></li>
         </ul>
 
         <p class="d-none d-sm-block">2021 All Rights Reserved. Created by Carlos de Bunes</p>

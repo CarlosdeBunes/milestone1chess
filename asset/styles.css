@@ -62,7 +62,7 @@ body{
     transition: .5s;
 }
 .carousel-inner img{
-    height: 350px;
+    height: 450px;
 }
 
 .carro .carousel-inner a:hover{
@@ -180,4 +180,3 @@ footer ul{
     font-size: 12px;
     }
 }
-
