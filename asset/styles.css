@@ -179,15 +179,3 @@ footer ul{
     .carro p{
     font-size: 12px;
     }
-.carrito
-{position: absolute;
-    top: 50px;
-    left: 50px;
-transform: translate(-50%) translate(-50%);
-}
-.carrito h2{
-  font-family: calibri;
-  font-size: 60px;
-  text-transform: uppercase;
-transform: translate(-50%) translate(-50%);
-}
