@@ -115,7 +115,7 @@ footer ul{
 #description{
     height: 255px;
     overflow: auto;
-    background-color: grey;
+    background-color: #aa5454;
     color: white;
     font-size: 18px;
     padding: 5px 10px;
@@ -179,3 +179,9 @@ footer ul{
     .carro p{
     font-size: 12px;
     }
+    #logos{
+  text-transform:uppercase;
+  font-size:72px;
+  font-family:'Verdana';
+  padding:30px;
+}
