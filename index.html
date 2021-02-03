@@ -11,7 +11,7 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="asset/styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,11 +19,13 @@
 
     <!-- Ionicons -->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/874a7490f3.js" crossorigin="anonymous"></script>
 
     <title>CHESS ACADEMY</title>
 </head>
 
 <body>
+    <a class="btn" id="arrow" href="#logos"><i class="fas fa-arrow-up"></i></a>
     <!-- BARRA DE NAVEGACIÓN -->
     <nav class="navbar navbar-expand-lg">
 
@@ -40,13 +42,13 @@
                     <a class="nav-link main" id="getstarted-btn" href="#CLASS DETAILS">GET STARTED</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#PRICES">Choose Plan</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#ABOUT US">About us</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#TESTIMONIALS">Testimonials</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link main" id="getstarted-btn" href="#FREE GIFT">GET A FREE GIFT</a>
@@ -65,7 +67,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="asset/img/8slide.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/8slide.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
                         <a href="#CLASS DETAILS" class="main">Start Learning</a>
                         <p>Learn logical chess move by move, everymove explain.
@@ -74,7 +76,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="asset/img/1slide.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/1slide.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
                         <a href="#INSTRUCTOR" class="main">Meet the instructor</a>
                         <p> I have 5 years of teaching experience for kids and adults.
@@ -83,7 +85,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="asset/img/3slide.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/3slide.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
                         <a href="#FREE GIFT" class="main">GET A FREE GIFT!</a>
                         <p> Chess will help your kid to develop better memory and to improve your math skills,
@@ -106,14 +108,14 @@
     <br>
 
     <!-- SECCION DE ABOUT ME -->
-    <H4 id="INSTRUCTOR">INSTRUCTOR</H4>
+    <H4 class="breakline" id="INSTRUCTOR">INSTRUCTOR</H4>
     <div class="container">
         <div class="row content">
             <!-- content es una clase creada, no de Boostrap -->
 
             <div class="col-md-3 mb-3">
                 <!-- mb es margin bottom -->
-                <img src="asset/img/me.jpg" class="img-fluid" id="careto" alt="">
+                <img src="assets/img/me.jpg" class="img-fluid" id="careto" alt="">
             </div>
 
             <div class="col-md-9">
@@ -137,25 +139,25 @@
     <br>
     <br>
     <!-- SECCION DE ABOUT ME -->
-    <H4 id="ABOUT US">ABOUT US</H4>
+    <H4 class="breakline" id="ABOUT US">ABOUT US</H4>
     <div class="container">
         <div class="row content">
             <!-- content es una clase creada, no de Boostrap -->
 
             <div class="col-md-3 mb-3">
                 <!-- mb es margin bottom -->
-                <img src="asset/img/3slide.jpeg" class="img-fluid" id="careto" alt="">
+                <img src="assets/img/3slide.jpeg" class="img-fluid" id="careto" alt="">
             </div>
 
             <div class="col-md-9">
                 <h4>Carlos's classes are easy and affordable</h4>
-                <p>Learn how to play chess easy and affordable with our online chess lessons.
+                <p style="background-color: bisque;color: white;padding: 10px;">Learn how to play chess easy and affordable with our online chess lessons.
                     Start your chess lessons in the comfort of your home or office.
                     No safety concerns, no home visiting..
                     All you need is a Skype account, camera, microphone and goodwill to learn chess.
                 </p>
                 <h4>Reasons Why Your Child Should Play Chess!</h4>
-                <p >
+                <p id="description" >
                    <strong>1. It makes your child smarter</strong> 
                     The researchers from the University of
                     Memphis have found that playing this game improves children’s spatial-reasoning ability,
@@ -189,7 +191,7 @@
     <br>
 
     <!-- CHOOSE PLAN SECTION -->
-    <H4 id="PRICES">PRICES</H4>
+    <H4 class="breakline" id="PRICES">PRICES</H4>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -218,11 +220,11 @@
     <br>
      <br>
     <br>
-    <H4 id="CLASS DETAILS">CLASS DETAILS</H4>
+    <H4 class="breakline" id="CLASS DETAILS">CLASS DETAILS</H4>
     <div class="container">
         <div class="row content">
             <div class="col-md-6 mb-3">
-                <img src="asset/img/4slide.jpg" class="img-fluid" alt="">
+                <img src="assets/img/4slide.jpg" class="img-fluid" alt="">
             </div>
             <form>
                 <div class="form-group">
@@ -276,7 +278,7 @@
         </div>
     </div>
     <!-- get a free gift -->
-    <H4 id="FREE GIFT">FREE GIFT</H4>
+    <H4 class="breakline" id="FREE GIFT">FREE GIFT</H4>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -301,7 +303,7 @@
     </div>
     <br>
     <!-- LOG IN -->
-    <H4 id="CONTACT">CONTACT</H4>
+    <H4 class="breakline" id="CONTACT">CONTACT</H4>
     <div class="container">
         <div class="row content">
             <div class="col-md-6 mb-3">
@@ -352,6 +354,116 @@
         </div>
     </div>
     </div>
+    <H4 class="breakline" id="CONTACT">TESTIMONIALS</H4>
+    <div class="card-columns">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title that wraps to a new line</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img" alt="...">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<!--contact-->
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <h3>Ready to accelerate your project? <b>just let us know.</b></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam
+                        mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
+                        contact@smartagency.com</p>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="" placeholder="Company name">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="" placeholder="Phone number (optional)">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="" class="btn btn-primary full-width">Contact sales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- FOOTER -->
    <footer class="bgDark">
         <div class="container">
