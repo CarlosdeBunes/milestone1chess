@@ -203,4 +203,5 @@ footer .list-inline .list-inline-item {
     bottom: 20px;
     right: 20px;
     color: white;
+    z-index: 3;
 }
