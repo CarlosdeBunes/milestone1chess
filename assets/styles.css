@@ -167,14 +167,14 @@ body{
 }
 .breakline{
     margin-bottom: 10px;
-    background-color: #c7a4a4;
+    background-color: green;
     border-radius: 5px;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: .5s;
     text-align: center;
 }
-#INSTRUCTOR:hover{
+#breakline:hover{
    box-shadow: 0px 3px #000000;
     transform: translateY(-3px);
 }
