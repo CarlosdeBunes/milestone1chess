@@ -53,6 +53,9 @@
                 <li class="nav-item">
                     <a class="nav-link main" id="getstarted-btn" href="#FREE GIFT">GET A FREE GIFT</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#CONTACT">Log in</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -227,11 +230,13 @@
                 <img src="assets/img/4slide.jpg" class="img-fluid" alt="">
             </div>
             <form>
+
+                <h5 for="exampleFormControlInput1">Leave your Email and we will contact you</h5>
                 <div class="form-group">
-                    <h5 for="exampleFormControlInput1">Leave your Email and we will contact you</h5>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" id="email" required>
                 </div>
+
                 <label for="exampleFormControlSelect1">What's your chess level?</label>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
@@ -273,7 +278,7 @@
                         <option>Other</option>
                     </select>
                 </div>
-                <a class="btn btn-primary btn-lg" href="#logos" role="button">SEND</a>
+                <button type="submit" class="btn btn-primary">Send</button>
             </form>
         </div>
     </div>
@@ -299,166 +304,174 @@
                     <a class="btn btn-danger btn-lg" href="#CONTACT" role="button">click here!</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
-    <!-- LOG IN -->
-    <H4 class="breakline" id="CONTACT">CONTACT</H4>
-    <div class="container">
-        <div class="row content">
-            <div class="col-md-6 mb-3">
-                <form action="/action_page.php">
-                    <div class="container">
-                        <h2>REGISTER</h2>
-                        <h6>Fill in this form to create an account or<strong> GET YOUR FREE GIFT<strong></h6>
-                        <hr>
-                        <div class="form-group">
-                        <label for="email"><b>Email</b></label>
-                        <input type="email" class="form-control" placeholder="Enter Email" name="email" id="email" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" class="form-control" placeholder="Enter Password" name="psw" id="psw" required>
-                        </div>
-                        <br>
-                        <div class="form-group"></div>
-                        <label for="psw-repeat"><b>Repeat Password</b></label>
-                        <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-                     </div>
-                        <br>
- <br>
-                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <br>
+            <!-- LOG IN -->
+            <H4 class="breakline" id="CONTACT">CONTACT</H4>
+            <div class="container">
+                <div class="row content">
+                    <div class="col-md-6 mb-3">
+                        <form action="/action_page.php">
+                            <div class="container">
+                                <h2>REGISTER</h2>
+                                <h6>Fill in this form to create an account or<strong> GET YOUR FREE GIFT<strong></h6>
+                                <hr>
+                                <div class="form-group">
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="email" class="form-control" placeholder="Enter Email" name="email"
+                                        id="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" class="form-control" placeholder="Enter Password" name="psw"
+                                        id="psw" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                                    <input type="password" class="form-control" placeholder="Repeat Password"
+                                        name="psw-repeat" id="psw-repeat" required>
+                                </div>
+                                <br>
+                                <br>
+                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-                        <button type="submit" class="btn btn-primary">Register</button>
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </form>
                     </div>
-                </form>
-            </div>
-            <form>
-                <div class="container">
-                    <h2>LOG IN</h2>
-                    <h6>If you are already a member</h6>
-                    <hr>
+                    <form>
+                        <div class="container">
+                            <h2>LOG IN</h2>
+                            <h6>If you are already a member</h6>
+                            <hr>
+                            <div class="form-group">
+                                <label for="email"><b>Email</b></label>
+                                <input type="email" class="form-control" placeholder="Enter Email" name="email"
+                                    id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" class="form-control" placeholder="Enter Password" name="psw"
+                                    id="psw" required>
+                            </div>
+                            <br>
+                            <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                            <label class="form-check-label" for="checkbox">Remember me</label>
+                        </div>
+                        <br>
 
-                    <label for="email"><b>Email</b></label>
-                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
-                    <br>
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-                    <br>
-                     <br>
-                    <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
-                    <label class="form-check-label" for="checkbox">Remember me</label>
+                        <p>I do not remember my <a href="#">password</a>.</p>
+                        <button type="submit" class="btn btn-primary">Log in</button>
+
+                    </form>
                 </div>
-                <br>
-              
-                <p>I do not remember my <a href="#">password</a>.</p>
-                <button type="submit" class="btn btn-primary">Log in</button>
-
-            </form>
-        </div>
-    </div>
-    </div>
-    <br>
-    <br>
-    <H4 class="breakline" id="TESTIMONIALS">TESTIMONIALS</H4>
-    <div class="card-columns">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Angel de Bunes</h5>
-                <p class="card-text">As parents, it is our responsibility to give our children the instruction and tools
-                    necessary to be the best that they can be. Carlos provides both the instruction and the tools.
-                </p>
             </div>
         </div>
-        <div class="card p-3">
-            <blockquote class="blockquote mb-0 card-body">
-                <p>As soon as my son went to Carlos's class, he was hooked.. The longer my son goes to chess classes,
-                    the more difficult it became to beat him.</p>
-                <footer class="blockquote-footer">
-                    <small class="text-muted">
-                        Neil Kingston <cite title="Source Title">Chess Dad</cite>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Ruben, Chesskid</h5>
-                <p class="card-text">Carlos helped me a lot when I was learning how to
-                    play chess. I spend a lot of time doing tactics
-                    trainer and it makes me a better chess player.
+        <br>
+        <br>
+        <H4 class="breakline" id="TESTIMONIALS">TESTIMONIALS</H4>
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Angel de Bunes</h5>
+                    <p class="card-text">As parents, it is our responsibility to give our children the instruction and
+                        tools
+                        necessary to be the best that they can be. Carlos provides both the instruction and the tools.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>As soon as my son went to Carlos's class, he was hooked.. The longer my son goes to chess
+                        classes,
+                        the more difficult it became to beat him.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Neil Kingston <cite title="Source Title">Chess Dad</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ruben, Chesskid</h5>
+                    <p class="card-text">Carlos helped me a lot when I was learning how to
+                        play chess. I spend a lot of time doing tactics
+                        trainer and it makes me a better chess player.
 
-                    Carlos's classes is the reason I started playing chess.
-                    You should sign up. It's fun to play, learn, and share.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        Carlos's classes is the reason I started playing chess.
+                        You should sign up. It's fun to play, learn, and share.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>I spend a lot of time in solving tactics puzzles online, and that is
+                        why I am very good in tactics. I love going to class to learn Chess. Carlos is a brilliant
+                        teacher
+                    </p>
+                    <footer class="blockquote-footer text-white">
+                        <small>
+                            Daniel <cite title="Source Title">ChessKid>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Carlos makes this a fun experience. It holds your hand through the initial learning phase and
+                        takes
+                        you through the more advanced planning and strategy. Carlos offers different ways of learning.
+                        It actively helps players
+                        cultivate their chess life and all the life lessons that go with the royal game.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Mary Cantwell <cite title="Source Title">Mom Chess</cite>
+                        </small>
+                    </footer>
+                </blockquote>
             </div>
         </div>
-        <div class="card bg-primary text-white text-center p-3">
-            <blockquote class="blockquote mb-0">
-                <p>I spend a lot of time in solving tactics puzzles online, and that is
-                    why I am very good in tactics. I love going to class to learn Chess. Carlos is a brilliant teacher
-                </p>
-                <footer class="blockquote-footer text-white">
-                    <small>
-                        Daniel <cite title="Source Title">ChessKid>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
 
-        <div class="card p-3 text-right">
-            <blockquote class="blockquote mb-0">
-                <p>Carlos makes this a fun experience. It holds your hand through the initial learning phase and takes
-                    you through the more advanced planning and strategy. Carlos offers different ways of learning.
-                    It actively helps players
-                    cultivate their chess life and all the life lessons that go with the royal game.</p>
-                <footer class="blockquote-footer">
-                    <small class="text-muted">
-                        Mary Cantwell <cite title="Source Title">Mom Chess</cite>
-                    </small>
-                </footer>
-            </blockquote>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer class="bgDark">
-        <div class="container">
-            <h4 id="logos">CROOM CHESS ACADEMY</h4>
-            <ul class="list-inline">
-                <li class="list-inline-item footer-menu"><a href="#logos">Home</a></li>
-                <li class="list-inline-item footer-menu"><a href="#PRICES">Choose a Plan</a></li>
-                <li class="list-inline-item footer-menu"><a href="#ABOUT US">About us</a></li>
-                <li class="list-inline-item footer-menu"><a href="#TESTIMONIALS">Testimonials</a></li>
-                <li class="list-inline-item footer-menu"><a href="#CLASS DETAILS">Contact</a></li>
-            </ul>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.google.com/"><i class="fab fa-google"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item"><a href="https://es.yahoo.com/"><i class="fas fa-envelope-square"></i></a>
-                </li>
-            </ul>
-            <small>©2021 All Rights Reserved. Created by <a href="#"
-                    class="font-weight-bold" target="_blank" rel="noopener">Carlos de Bunes </a></small>
-                    <p>Email: cbunesm@yahoo.es Telf:086217886</p>
-        </div>
-    </footer>
+        <!-- FOOTER -->
+        <footer class="bgDark">
+            <div class="container">
+                <h4 id="logos">CROOM CHESS ACADEMY</h4>
+                <ul class="list-inline">
+                    <li class="list-inline-item footer-menu"><a href="#logos">Home</a></li>
+                    <li class="list-inline-item footer-menu"><a href="#PRICES">Choose a Plan</a></li>
+                    <li class="list-inline-item footer-menu"><a href="#ABOUT US">About us</a></li>
+                    <li class="list-inline-item footer-menu"><a href="#TESTIMONIALS">Testimonials</a></li>
+                    <li class="list-inline-item footer-menu"><a href="#CLASS DETAILS">Contact</a></li>
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://www.google.com/"><i class="fab fa-google"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://twitter.com/?lang=en"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://es.yahoo.com/"><i
+                                class="fas fa-envelope-square"></i></a>
+                    </li>
+                </ul>
+                <small>©2021 All Rights Reserved. Created by <a href="#" class="font-weight-bold" target="_blank"
+                        rel="noopener">Carlos de Bunes </a></small>
+                <p>Email: cbunesm@yahoo.es Telf:086217886</p>
+            </div>
+        </footer>
 
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
