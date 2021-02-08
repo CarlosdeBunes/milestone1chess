@@ -1,6 +1,6 @@
 <h1 id="logos">Croom Chess Academy</h1>
 
-[View the live project here.](https://8000-fa4455cc-3711-4def-b887-2d45b4a89653.ws-eu03.gitpod.io/)
+[View the live project here.](https://carlosdebunes.github.io/milestone1chess/)
 
 This is a marketing website for Croom Chess Academy. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
@@ -29,7 +29,7 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
         -   The three main colours used are red,green and white.
     -   #### Typography
         -   The Titillium Web font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
-            Titillium Web is a clean font used frequently in programming, so it is both attractive and appropriate.
+            Titillium Web has a slightly techy feel, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large 3 slides background images is designed to be striking and catch the user's attention. It also has a modern and energetic.
 
@@ -70,8 +70,6 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Ionicons:]("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">)
     - Ionicon was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
@@ -95,7 +93,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 6 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        2. At the bottom of every page, there is a button arrow to ensure the user always can go up the home page and doesn't feel trapped as they get to the bottom of the page.
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of him and see if he is trusted. 
 
@@ -130,9 +128,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   No bugs
 
 ## Deployment
 
@@ -182,11 +178,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## Credits
-
 ### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 -   [Bootstrap4.6v](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
@@ -194,8 +186,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Content
 
 -   All content was mostly written by the developer. Some parts of the testimonials were copied from chesskid.com
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
