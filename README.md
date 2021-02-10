@@ -1,5 +1,5 @@
 <h1 id="logos">Croom Chess Academy</h1>
-
+python3 -m http.server
 [View the live project here.](https://carlosdebunes.github.io/milestone1chess/)
 
 This is a marketing website for Croom Chess Academy. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
