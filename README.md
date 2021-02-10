@@ -71,8 +71,8 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
     - Ionicon was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 7. [Responsinator:](http://www.responsinator.com/)
     -  Responsinator: Responsinator was used to check the site was responsive across all devices.
-7. [Balsamic:](https://balsamiq.com/)
-    - Balsamiq: Balsamiq was used to create the wireframes during the design process.
+7. [Lucidchart:](https://www.lucidchart.com/)
+    - Lucidchar: Lucidchar was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -80,9 +80,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/) - errors related to bootstrap and ionicons.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/css_validator.png)
-
-1.Manual Testing documentation
-Please see the testing file
 
 ### Testing User Stories from User Experience (UX) Section
 
