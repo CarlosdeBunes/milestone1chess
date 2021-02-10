@@ -68,11 +68,11 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-7. [Ionicons:]("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">)
+7. [Ionicons:]("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css")
     - Ionicon was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-7. [Responsinator:]("http://www.responsinator.com/">)
+7. [Responsinator:](http://www.responsinator.com/)
     -  Responsinator: Responsinator was used to check the site was responsive across all devices.
-7. [Balsamic:]("https://balsamiq.com/">)
+7. [Balsamic:](https://balsamiq.com/)
     - Balsamiq: Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
