@@ -31,7 +31,7 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
         -   The Titillium Web font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
             Titillium Web has a slightly techy feel, so it is both attractive and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large 3 slides background images is designed to be striking and catch the user's attention. It also has a modern and energetic.
+        -   Imagery is important. The large 3 slides background images is designed to be striking and catch the user's attention. It had to be clear and of good quality so that the users were able to match them properly.
 
 *   ### Wireframes
 
@@ -58,18 +58,22 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 
 1. [Bootstrap 4.6.1:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Google Fonts:](https://fonts.google.com/)
+2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
+4. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
+5. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Ionicons:]("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">)
+7. [Ionicons:]("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">)
     - Ionicon was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+7. [Responsinator:]("http://www.responsinator.com/">)
+    -  Responsinator: Responsinator was used to check the site was responsive across all devices.
+7. [Balsamic:]("https://balsamiq.com/">)
+    - Balsamiq: Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -77,6 +81,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/CarlosdeBunes/milestone1chess/blob/master/testing)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/CarlosdeBunes/milestone1chess/blob/master/testing)
+
+1.Manual Testing documentation
+Please see the testing file
 
 ### Testing User Stories from User Experience (UX) Section
 
