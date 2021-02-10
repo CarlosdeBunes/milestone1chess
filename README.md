@@ -35,9 +35,9 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/home wireframe.png.png)
+    -   Home Page Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/home_wireframe.png)
 
-    -   Mobile Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/mobile wireframe.png.png)
+    -   Mobile Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/mobile_wireframe.png)
 
 
 ## Features
