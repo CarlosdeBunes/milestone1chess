@@ -35,11 +35,10 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/blob/master/screenshots/home wireframe.png.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://github.com/CarlosdeBunes/milestone1chess/blob/master/screenshots/mobile wireframe.png.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -79,8 +78,8 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/CarlosdeBunes/milestone1chess/blob/master/testing)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/CarlosdeBunes/milestone1chess/blob/master/testing)
+-   [W3C Markup Validator](https://validator.w3.org/) - errors related to bootstrap and ionicons.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/CarlosdeBunes/milestone1chess/blob/master/screenshots/css_validator.png)
 
 1.Manual Testing documentation
 Please see the testing file
