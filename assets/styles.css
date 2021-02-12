@@ -97,6 +97,14 @@ body{
     font-size: 18px;
     padding: 5px 10px;
 }
+#description1{
+    height: 255px;
+    overflow: auto;
+    background-color: #aa5454;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
 
 .form-control{
     display: block;
@@ -158,6 +166,14 @@ body{
     }
 }
     #logos{
+  text-transform:uppercase;
+  font-size:25px;
+  font-family:'Verdana';
+  padding:30px;
+  color: green;
+  font-weight: bold;
+}
+  #logos1{
   text-transform:uppercase;
   font-size:25px;
   font-family:'Verdana';
