@@ -22,7 +22,7 @@ body{
     transform: translateY(-10px);
     border-radius: 10px;
 }
-.getstarted-btn{
+#getstarted-btn{
    display: inline-block;
     padding: 10px;
     margin-bottom: 10px;
@@ -32,23 +32,10 @@ body{
     text-decoration: none;
     transition: .5s;
 }
-.getstarted-btn:hover{
+#getstarted-btn:hover{
    box-shadow: 0px 3px #000000;
     transform: translateY(-3px);
 }
-.getstarted-btn{
-   display: inline-block;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #b30606;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    transition: .5s;
-}
-.getstarted-btn:hover{
-   box-shadow: 0px 3px #000000;
-    transform: translateY(-3px);
 /* ESTILOS DEL CARRUSEL DE FOTOS */
 .carro{
     width: 60%;
@@ -60,6 +47,7 @@ body{
     width: fit-content;
     margin: auto;
     padding: 1%;
+    font-size: 400;
     color: white;
 }
 
@@ -95,12 +83,6 @@ body{
     margin-left: 20%;
     margin-top: 25%;
 }
-#careto1{
-    width: 10rem;
-    height: 10rem;
-    margin-left: 20%;
-    margin-top: 25%;
-}
 
 .signin-text{
     font-style: normal;
@@ -115,17 +97,11 @@ body{
     font-size: 18px;
     padding: 5px 10px;
 }
-#description1{
-    height: 255px;
-    overflow: auto;
-    background-color: #aa5454;
-    color: white;
-    font-size: 18px;
-    padding: 5px 10px;
-}
+
 .form-control{
     display: block;
     width: 100%;
+    font-style: 1rem;
     font-weight: 400;
     line-height: 1.5;
     border-color: #00ac96 !important;
