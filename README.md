@@ -70,7 +70,7 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 7. [Ionicons:](https://ionicons.com/)
     - Ionicon was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 7. [Responsinator:](http://www.responsinator.com/)
-    -  Responsinator: Responsinator was used to check the site was responsive across all devices.
+    - Responsinator was used to check the site was responsive across all devices.
     - [Results](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/RESPONSINATOR.png)
 
 7. [Lucidchart:](https://www.lucidchart.com/)
