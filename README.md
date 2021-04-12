@@ -81,7 +81,7 @@ This is a marketing website for Croom Chess Academy. It is designed to be respon
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/html_checker.png)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/html_checker1.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/CarlosdeBunes/milestone1chess/tree/master/screenshots/css_validator.png)
 
 ### Testing User Stories from User Experience (UX) Section
